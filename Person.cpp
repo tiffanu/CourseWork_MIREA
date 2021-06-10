@@ -11,11 +11,8 @@
 
 using namespace std;
 
-// Вывести всю информацию о человеке
+// Р’С‹РІРµСЃС‚Рё РІСЃСЋ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ С‡РµР»РѕРІРµРєРµ
 void Person::fullIntroduce() {
-	cout << "Фамилия: " << this->_sname << " Имя: " << this->_fname << " Отчество: " << this->_mname << endl;
-	cout << "Пол: " << (this->_gender?"М":"Ж") << " | День рождения: " << dateToStr(this->_bdate) << endl;
+	cout << "Р¤Р°РјРёР»РёСЏ: " << this->_sname << " РРјСЏ: " << this->_fname << " РћС‚С‡РµСЃС‚РІРѕ: " << this->_mname << endl;
+	cout << "РџРѕР»: " << (this->_gender?"Рњ":"Р–") << " | Р”РµРЅСЊ СЂРѕР¶РґРµРЅРёСЏ: " << dateToStr(this->_bdate) << endl;
 }
-
-
-
