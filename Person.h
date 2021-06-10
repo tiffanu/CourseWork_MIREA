@@ -17,13 +17,13 @@
 using namespace std;
 class Person {
 protected:
-	string _sname; // Фамилия
-	string _fname; // Имя
-	string _mname; // Отчество
-	Date _bdate; // Дата рождения
-	int _gender; // Пол: 0=Ж, 1=М
+	string _sname; // Р¤Р°РјРёР»РёСЏ
+	string _fname; // РРјСЏ
+	string _mname; // РћС‚С‡РµСЃС‚РІРѕ
+	Date _bdate; // Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ
+	int _gender; // РџРѕР»: 0=Р–, 1=Рњ
 public:
-	// Вывод информации о человеке
+	// Р’С‹РІРѕРґ РёРЅС„РѕСЂРјР°С†РёРё Рѕ С‡РµР»РѕРІРµРєРµ
 	void fullIntroduce();
 };
 
